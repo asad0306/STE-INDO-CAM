@@ -40,8 +40,11 @@ img {
 }
 .nav-list a {
     display: block;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slateblue;
 }
 .nav-list a:hover {
     background: skyblue;
