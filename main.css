@@ -3,20 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 li {
     list-style: none;
 }
+
 a {
     color: #000000;
     text-decoration: none;
 }
+
 .logo {
     height: 80px;
 }
+
 img {
     height: 400px;
 }
+
+
 /* nav */
+
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -26,10 +33,12 @@ img {
     width: 100%;
     z-index: 10;
 }
+
 .nav-list {
     display: flex;
     margin-right: 2rem;
 }
+
 @media (max-width: 28.75em) {
     .nav {
         justify-content: center;
@@ -38,6 +47,7 @@ img {
         margin: 0 1rem;
     }
 }
+
 .nav-list a {
     display: block;
     font-size: 15px;
@@ -46,11 +56,10 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     color: slateblue;
 }
+
 .nav-list a:hover {
     background: skyblue;
-
 }
-
 
 div {
     background-repeat: no-repeat;
@@ -58,20 +67,32 @@ div {
     background-size: cover;
 }
 
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
+
+
 /* Slideshow container */
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin-top: 50px;
     margin-left: 150px;
 }
+
+
 /* Hide the images by default */
+
 .mySlide {
     display: none;
-    }
+}
+
+
 /* Next & previous buttons */
-.prev, .next {
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -85,16 +106,26 @@ div {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
+
 /* Position the "next button" to the right */
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
+
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+
+.prev:hover,
+.next:hover {
     background-color: rgba(30, 159, 168, 0);
 }
+
+
 /* Caption text */
+
 .text {
     color: rgb(11, 15, 243);
     font-size: 15px;
@@ -107,15 +138,21 @@ div {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
 }
+
+
 /* Number text (1/5 etc) */
+
 .numbertext {
-    color:rgb(11, 15, 243);
+    color: rgb(11, 15, 243);
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
 }
+
+
 /* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -126,71 +163,172 @@ div {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+
+.active,
+.dot:hover {
     background-color: #717171;
 }
+
+
 /* Fading animation */
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-   /* Style inputs with type="text", select elements and textareas */
-   input[type=text], [type=tel], select, textarea {
-       width: 100%;
-       padding: 12px;
-       border: 1px solid skyblue;
-       border-radius: 4px;
-       box-sizing: border-box;
-       margin-top: 6px;
-       margin-bottom: 16px;
-       resize: vertical;
-   }
-   /* Style the submit button with a specific background color etc */
-   input[type=submit] {
-       background-color: #4caf50;
-       color: white;
-       padding: 12px 50px;
-       margin-top: 5px;
-       margin-left: 50px;
-       border: none;
-       border-radius: 4px;
-       cursor: pointer;
-       font-weight: bold;
-   }
-   /* When moving the mouse over the submit button, add a darker green color */
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+[type=tel],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 50px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
     background-color: #45a049;
-  }
-  /* Add a background color and some padding around the form */
+}
+
+
+/* Add a background color and some padding around the form */
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 5px 20px;
     width: 350px;
 }
+
 ::placeholder {
     font-family: monospace;
     font-weight: bold;
 }
+
 label {
     color: steelblue;
     font-family: monospace;
     font-size: 18px;
 }
+
 select {
     font-family: monospace;
     font-size: 15px;
     background-color: rgb(203, 219, 211);
     font-weight: bold;
+}
+
+
+/* product section */
+
+.product-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+}
+
+.product-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+
+@media (max-width: 28.75em) {
+    .product-section-header {
+        font-size: 4rem;
+    }
+}
+
+
+/* "Automagic" image grid using no media queries */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+    .product-section {
+        padding: 6rem 1rem;
+    }
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.product {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+.code {
+    color: var(--main-gray);
+    transition: color 0.3s ease-out;
+}
+
+.product:hover .code {
+    color: #ff7f50;
+}
+
+.product-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
 }

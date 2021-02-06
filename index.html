@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=100px, initial-scale=1.0">
@@ -7,62 +8,63 @@
     <title>STE INDO-CAM</title>
     <link rel="icon" href="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/logo.jpeg" type="Image/logo">
 </head>
-<body>
-   <img class="logo" src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/Heading.jpeg" alt="main">
 
-<!-- START NAV -->
-<nav id="navbar" class="nav">
-    <ul class="nav-list">
-        <li>
-            <a href="#welcom">HOME</a>
-        </li>
-        <li>
-            <a href="#about">ABOUT US</a>
-        </li>
-        <li>
-            <a href="product">PRODUCTS</a>
-        </li>
-        <li>
-            <a href="price">PRICING</a>
-        </li>
-        <li>
-            <a href="contact">CONTACT US</a>
-        </li>
-    </ul>
-</nav>
+<body>
+    <img class="logo" src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/Heading.jpeg" alt="main">
+
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcom">HOME</a>
+            </li>
+            <li>
+                <a href="#about">ABOUT US</a>
+            </li>
+            <li>
+                <a href="#product">PRODUCTS</a>
+            </li>
+            <li>
+                <a href="#price">PRICING</a>
+            </li>
+            <li>
+                <a href="#contact">CONTACT US</a>
+            </li>
+        </ul>
+    </nav>
 
     <!-- Slideshow container -->
-<div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 5</div>
-        <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/nati.png" alt="NATIONAL" style="width: 100%;">
-        <div class="text"> NATIONAL PAINTS</div>
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/nati.png" alt="NATIONAL" style="width: 100%;">
+            <div class="text"> NATIONAL PAINTS</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/FEV.png" alt="PIDILITE" style="width: 100%;">
+            <div class="text">PIDILITE</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/asm.jpeg" alt="ASMACO" style="width: 100%;">
+            <div class="text">ASMACO</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/machate.jpeg" alt="TRAMONTINA" style="width: 100%;">
+            <div class="text">TRAMONTINA</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/npn.jpeg" alt="NATIONAL" style="width: 100%;">
+            <div class="text">NATIONAL PAINTS</div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 5</div>
-        <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/FEV.png" alt="PIDILITE" style="width: 100%;">
-        <div class="text">PIDILITE</div>
-    </div>
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 5</div>
-        <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/asm.jpeg" alt="ASMACO" style="width: 100%;">
-        <div class="text">ASMACO</div>
-    </div>
-    <div class="mySlides fade">
-        <div class="numbertext">4 / 5</div>
-        <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/machate.jpeg" alt="TRAMONTINA" style="width: 100%;">
-        <div class="text">TRAMONTINA</div>
-    </div>
-    <div class="mySlides fade">
-        <div class="numbertext">5 / 5</div>
-        <img src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/npn.jpeg" alt="NATIONAL" style="width: 100%;">
-        <div class="text">NATIONAL PAINTS</div>
-    </div>
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
     <!-- The dots/circles -->
     <div style="text-align: center">
         <span class="dot" onclick="currentSlide(1)"></span>
@@ -72,85 +74,123 @@
         <span class="dot" onclick="currentSlide(5)"></span>
 
     </div>
-</div>
-<script>
-    var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-} 
-</script>
-<script>
-    var myIndex = 0;
-    carousel();
-    
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-      setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-    </script>
-
-<div style="background-image: url('https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/np.png');">
-
-    <div class="container">
-        <h2>Get the right assistance for all your painting needs</h2>
-        <form action="/action_page.php">
-            <label for="fname">Name</label>
-            <input type="text" name="firstname" id="fname" placeholder="Your Name.." required>
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="Your Email.."required>
-            <label for="phone">Mobile</label>
-            <input type="tel" name="phone" id="phone" placeholder="Your Mobile Number.."required>
-            <label for="cities">City</label>
-            <select name="cities" id="cities">
-                <option value="Douala">Douala</option>
-                <option value="Yaoundé">Yaoundé</option>
-                <option value="Garoua">Garoua</option>
-                <option value="Kousséri">Kousséri</option>
-                <option value="Bamenda">Bamenda</option>
-                <option value="Maroua">Maroua</option>
-                <option value="Bafoussam">Bafoussam</option>
-                <option value="Mokolo">Mokolo</option>
-                <option value="Ngaoundéré">Ngaoundéré</option>
-                <option value="Bertoua">Bertoua</option>
-            </select>
-            <input type="submit" value="Enquire Now">
-        </form>
     </div>
-</div>
-   
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <div style="background-image: url('https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/np.png');">
+        <!-- START PRODUCTS SECTION -->
+        <section id="product" class="product-section">
+            <h2 class="product-section-header">Range of products we are dealing with.</h2>
+            <div class="product-grid">
+                <a href="https://national-paints.com/np/" target="_blank" class="product product-title">
+                    <img class="product-image" src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/nati.png" alt="national">
+                    <p class="product-title">
+                        <span class="code">&lt;</span> National Paints.
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a href="https://www.pidilite.com/" target="_blank" class="product product-title">
+                    <img class="product-image" src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/FEV.png" alt="fevicol">
+                    <p class="product-title">
+                        <span class="code">&lt;</span> Fevicol.
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a href="http://www.anchorallied.com/" target="_blank" class="product product-title">
+                    <img class="product-image" src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/asm.jpeg" alt="asmaco">
+                    <p class="product-title">
+                        <span class="code">&lt;</span> Asmaco.
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a href="https://www.tramontina.co.za/" target="_blank" class="product product-title">
+                    <img class="product-image" src="https://raw.githubusercontent.com/asad0306/STE-INDO-CAM/main/Images%20/machate.jpeg" alt="tramontina">
+                    <p class="product-title">
+                        <span class="code">&lt;</span> Tramontina.
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+        </section>
+        <!-- END PRODUCT SECTION -->
 
 
-
+        <div class="container">
+            <h2>Get the right assistance for all your painting needs</h2>
+            <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" name="firstname" id="fname" placeholder="Your Name.." required>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Your Email.." required>
+                <label for="phone">Mobile</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your Mobile Number.." required>
+                <label for="cities">City</label>
+                <select name="cities" id="cities">
+                    <option value="Douala">Douala</option>
+                    <option value="Yaoundé">Yaoundé</option>
+                    <option value="Garoua">Garoua</option>
+                    <option value="Kousséri">Kousséri</option>
+                    <option value="Bamenda">Bamenda</option>
+                    <option value="Maroua">Maroua</option>
+                    <option value="Bafoussam">Bafoussam</option>
+                    <option value="Mokolo">Mokolo</option>
+                    <option value="Ngaoundéré">Ngaoundéré</option>
+                    <option value="Bertoua">Bertoua</option>
+                </select>
+                <input type="submit" value="Enquire Now">
+            </form>
+        </div>
+    </div>
 
 
 </body>
