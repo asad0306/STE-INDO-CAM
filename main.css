@@ -255,6 +255,8 @@ label {
     color: steelblue;
     font-family: monospace;
     font-size: 18px;
+    display: flex;
+    justify-content: left;
 }
 
 select {
@@ -269,14 +271,14 @@ select {
 
 .product-section {
     text-align: center;
-    padding: 10rem 2rem;
-    background: var(--main-blue);
+    padding: 4rem 10rem;
+    background: ;
 }
 
 .product-section-header {
     max-width: 640px;
-    margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    margin: 0 auto 2rem auto;
+    border-bottom: 0.2rem solid black;
 }
 
 @media (max-width: 28.75em) {
@@ -295,12 +297,12 @@ select {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 30.625em) {
     .product-section {
-        padding: 6rem 1rem;
+        padding: 1rem 1rem;
     }
     .product-grid {
         grid-template-columns: 1fr;
@@ -308,13 +310,13 @@ select {
 }
 
 .product {
-    background: aliceblue;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
+    background: skyblue;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
 }
 
 .code {
-    color: aliceblue;
+    color: black;
     transition: color 0.3s ease-out;
 }
 
@@ -323,12 +325,12 @@ select {
 }
 
 .product-image {
-    height: calc(100% - 6.8rem);
-    width: 90%;
-    object-fit: contain;
+    height: calc(100% - 6rem);
+    width: 100%;
+    object-fit: cover;
 }
 
 .product-title {
     font-size: 1.5rem;
-    padding: 2rem 0.5rem;
+    padding: ;
 }
