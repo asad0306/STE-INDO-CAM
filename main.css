@@ -25,7 +25,7 @@ img {
 .nav {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -53,6 +53,7 @@ img {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: slateblue;
+    background-color: transparent;
 }
 
 .nav-list a:hover {
@@ -275,7 +276,10 @@ select {
 .product-section-header {
     max-width: 640px;
     margin: 0 auto 2rem auto;
-    border-bottom: .2rem solid black;
+    border-bottom: .2rem solid aquamarine;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: cadetblue;
 }
 
 @media (max-width: 28.75em) {
@@ -307,7 +311,7 @@ select {
 }
 
 .product {
-    background: lightgray;
+    background: lightsteelblue;
     box-shadow: 1px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
 }
@@ -370,8 +374,8 @@ p {
 }
 
 .paint>.level {
-    background-color: lightgray;
-    color: seagreen;
+    background-color: lightsteelblue;
+    color: peru;
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -470,4 +474,10 @@ p {
         width: 100%;
         display: block;
     }
+}
+
+#contact {
+    color: royalblue;
+    text-decoration: underline;
+    margin-top: 5%;
 }
